@@ -4,9 +4,9 @@
 
 
 
-💡 ServiceContainer is a unopinionated, simple, easy to use container with for [LeoECSCommunity/ecslite](https://github.com/LeoECSCommunity/ecslite) designed to make it trivial to customize external services and providers and make them available to systems through a single shared class.
+💡 ServiceContainer is a unopinionated, simple, easy to use container for [LeoECSCommunity/ecslite](https://github.com/LeoECSCommunity/ecslite) designed to make it trivial to customize external services and providers and make them available to systems through a single shared class.
 
-🏁 The goal of the ServiceContainer is to provide a single point where you configure all the Game Engine, data, and external information and "inject" it into your ECS worlds.  This helps you write more abstracted code with fewer dependencies, while simplifying the tasks associated with integrating you ECS simulation with the rest of your Game Engine.
+🏁 The goal of the ServiceContainer is to provide a single high-level point where you configure all the Game Engine service, data, and external information that your services are going to require and "inject" it into your ECS worlds.  This helps you write more abstracted code with fewer dependencies, while simplifying the tasks associated with integrating you ECS simulation with the rest of your Game Engine and make everything nice and testable.
 
 🧩 While the repository comes with custom Unity integration, this is properly guarded so as to 
 function in other environments.

@@ -1,0 +1,23 @@
+{
+  "name": "com.leoecscommunity.ecslite.servicecontainer",
+  "author": "RealityStop",
+  "displayName": "LeoECSCommunity Lite Service Container",
+  "description": "Service Container for LeoECSCommunity Lite.",
+  "unity": "2020.3",
+  "version": "1.0.0",
+  "keywords": [
+    "leoecslite",
+    "leoecs",
+    "ecs",
+    "dependency injection",
+    "services",
+    "service container",
+    "di",
+    "performance"
+  ],
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RealityStop/ecslite-ServiceContainer"
+  }
+}
